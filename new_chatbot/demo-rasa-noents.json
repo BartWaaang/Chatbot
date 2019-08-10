@@ -1,0 +1,491 @@
+{
+  "rasa_nlu_data": {
+    "entity_examples": [
+      {
+        "text": "hey", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "howdy", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hey there", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hello", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hi", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "i want to konw something about aapl",
+        "intent": "stock_search", 
+        "entities": [
+            {
+            "start": 31,
+            "end": 35,
+            "value": "aapl",
+            "entity": "stock"
+            }
+        ]
+      },
+      {
+        "text": "show me something about aapl",
+        "intent": "stock_search",
+        "entities": [
+            {
+            "start": 24,
+            "end": 28,
+            "value": "aapl",
+            "entity": "stock"
+            }
+        ]
+      },
+      {
+        "text": "tell me something about aapl",
+        "intent": "stock_search",
+        "entities": [
+            {
+            "start": 24,
+            "end": 28,
+            "value": "aapl",
+            "entity": "stock"
+            }
+        ]
+      },
+      {
+        "text": "i want to know something about aapl",
+        "intent": "stock_search",
+        "entities": [
+            {
+            "start": 31,
+            "end": 35,
+            "value": "aapl",
+            "entity": "stock"
+            }
+        ]
+      },
+      {
+        "text": "can you tell me something about tsla",
+        "intent": "stock_search",
+        "entities": [
+            {
+            "start": 32,
+            "end": 36,
+            "value": "tsla",
+            "entity": "stock"
+            }
+        ]
+      },
+      {
+        "text": "yes",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yep",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yeah",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "tell me about ms",
+        "intent": "stock_search",
+        "entities": [
+            {
+            "start": 14,
+            "end": 16,
+            "value": "ms",
+            "entity": "stock"
+            }
+        ]
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "good bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "stop",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "end",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "i am looking for something about pt",
+        "intent": "stock_search",
+        "entities": [
+            {
+            "start": 33,
+            "end": 35,
+            "value": "pt",
+            "entity": "stock"
+            }
+        ]
+      },
+      {
+        "text": "search for ab",
+        "intent": "stock_search",
+        "entities": [
+            {
+            "start": 11,
+            "end": 13,
+            "value": "ab",
+            "entity": "stock"
+            }
+        ]
+      },
+      {
+        "text": "tell me something about ab",
+        "intent": "stock_search",
+        "entities": [
+            {
+            "start": 24,
+            "end": 26,
+            "value": "ab",
+            "entity": "stock"
+            }
+        ]
+      },
+      {
+        "text": "i'm looking for somthing about tsla",
+        "intent": "stock_search",
+        "entities": [
+            {
+            "start": 31,
+            "end": 35,
+            "value": "tsla",
+            "entity": "stock"
+            }
+        ]
+      },
+      {
+        "text": "indeed",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "that's right",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "ok",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "great",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "hey",
+        "intent": "greet",
+          "entities": []
+      },
+      {
+        "text": "howdy",
+        "intent": "greet",
+          "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+          "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+          "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+          "entities": []
+      },
+      {
+        "text": "what's its latest price",
+        "intent": "latestprice_search",
+          "entities": []
+      },
+      {
+        "text": "latest price",
+        "intent": "latestprice_search",
+          "entities": []
+      },
+      {
+        "text": "i'm looking for its latest price",
+        "intent": "latestprice_search",
+          "entities": []
+      },
+      {
+        "text": "show me its latest price",
+        "intent": "latestprice_search",
+          "entities": []
+      },
+      {
+        "text": "tell me its latest price",
+        "intent": "latestprice_search",
+          "entities": []
+      },
+      {
+        "text": "i want to know its latest price",
+        "intent": "latestprice_search",
+          "entities": []
+      },
+      {
+        "text": "yes",
+        "intent": "affirm",
+          "entities": []
+      },
+      {
+        "text": "yep",
+        "intent": "affirm",
+          "entities": []
+      },
+      {
+        "text": "yeah",
+        "intent": "affirm",
+          "entities": []
+      },
+      {
+        "text": "what's its latest volume",
+        "intent": "latestvolume_search",
+          "entities": []
+      },
+      {
+        "text": "latest volume",
+        "intent": "latestvolume_search",
+          "entities": []
+      },
+      {
+        "text": "i'm looking for its latest volume",
+        "intent": "latestvolume_search",
+          "entities": []
+      },
+      {
+        "text": "show me its latest volume",
+        "intent": "latestvolume_search",
+          "entities": []
+      },
+      {
+        "text": "tell me its latest volume",
+        "intent": "latestvolume_search",
+          "entities": []
+      },
+      {
+        "text": "i want to know its latest volume",
+        "intent": "latestvolume_search",
+          "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+          "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+          "entities": []
+      },
+      {
+        "text": "good bye",
+        "intent": "goodbye",
+          "entities": []
+      },
+      {
+        "text": "stop",
+        "intent": "goodbye",
+          "entities": []
+      },
+      {
+        "text": "end",
+        "intent": "goodbye",
+          "entities": []
+      },
+      {
+        "text": "that's all ,goodbye",
+        "intent": "goodbye",
+          "entities": []
+      },
+      {
+        "text": "all right, see you",
+        "intent": "goodbye",
+          "entities": []
+      },
+      {
+        "text": "thank you, good bye",
+        "intent": "goodbye",
+          "entities": []
+      },
+      {
+        "text": "what's its highest price in 52 weeks",
+        "intent": "week52high_search",
+          "entities": []
+      },
+      {
+        "text": "highest price in 52 weeks",
+        "intent": "week52high_search",
+          "entities": []
+      },
+      {
+        "text": "i'm looking for its highest price in 52 weeks",
+        "intent": "week52high_search",
+          "entities": []
+      },
+      {
+        "text": "show me its highest price in 52 weeks",
+        "intent": "week52high_search"
+          ,"entities": []
+      },
+      {
+        "text": "tell me its highest price in 52 weeks",
+        "intent": "week52high_search",
+          "entities": []
+      },
+      {
+        "text": "i want to know its highest price in 52 weeks",
+        "intent": "week52high_search",
+          "entities": []
+      },
+      {
+        "text": "indeed",
+        "intent": "affirm",
+          "entities": []
+      },
+      {
+        "text": "that's right",
+        "intent": "affirm",
+          "entities": []
+      },
+      {
+        "text": "ok",
+        "intent": "affirm",
+          "entities": []
+      },
+      {
+        "text": "great",
+        "intent": "affirm",
+          "entities": []
+      },
+      {
+        "text": "what can you do",
+        "intent": "first_ask",
+          "entities": []
+      },
+      {
+        "text": "what can you do for me",
+        "intent": "first_ask",
+          "entities": []
+      },
+      {
+        "text": "tell me what can you do for me",
+        "intent": "first_ask",
+          "entities": []
+      },
+      {
+        "text": "i want to know what can you do",
+        "intent": "first_ask",
+          "entities": []
+      },
+      {
+        "text": "i want to know something else",
+        "intent": "change_ask",
+          "entities": []
+      },
+      {
+        "text": "i want to know other information",
+        "intent": "change_ask",
+          "entities": []
+      },
+      {
+        "text": "tell me something more",
+        "intent": "change_ask",
+          "entities": []
+      },
+      {
+        "text": "do you know other things",
+        "intent": "change_ask",
+          "entities": []
+      },
+      {
+        "text": "123456",
+        "intent": "number",
+          "entities": []
+      },
+      {
+        "text": "785623",
+        "intent": "number",
+          "entities": []
+      },
+      {
+        "text": "100",
+        "intent": "number",
+          "entities": []
+      },
+            {
+        "text": "50",
+        "intent": "number",
+          "entities": []
+      },
+            {
+        "text": "buy it",
+        "intent": "buy_stock",
+          "entities": []
+      },
+            {
+        "text": "can you buy it?",
+        "intent": "buy_stock",
+          "entities": []
+      },
+            {
+        "text": "i want to buy it",
+        "intent": "buy_stock",
+          "entities": []
+      },
+            {
+        "text": "i want to sell it",
+        "intent": "sell_stock",
+          "entities": []
+      },
+                  {
+        "text": "help me to sell it",
+        "intent": "sell_stock",
+          "entities": []
+      },
+                  {
+        "text": "can you sell it",
+        "intent": "sell_stock",
+          "entities": []
+      }
+    ]
+  }
+}
