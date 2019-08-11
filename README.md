@@ -44,3 +44,4 @@
 * demo-rasa-noents.json    为自定义语义识别训练集（可自行添加）
 * itchat.pkl与wxpy.pkl 为微信集成库
 * main.py 则包括进行微信只能回复的全部代码，其中各个模块有具体注释
+* 内有总结报告与视频演示
